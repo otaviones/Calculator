@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,0,255,0.6621923937360179) 100%);
+    /* background-image: url(https://img.freepik.com/fotos-gratis/conceito-de-mesa-vista-superior-com-o-bloco-de-notas_23-2148604955.jpg?t=st=1739073344~exp=1739076944~hmac=d767299aa11b36417f71562279bef323dbaa99899ecfcf2b6573d8b4d636a85c&w=996);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backgro */
+    /* background-color: hsl(0, 0%, 95%); */
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    box-shadow: hsl(0, 0%, 90%);
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#display:focus {
+    outline: none;
+    border: none;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color:hsl(0, 0%, 40%);;
+}
+
+button:active {
+    background-color:hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%);
+}

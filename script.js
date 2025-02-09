@@ -34,7 +34,7 @@ function calculate() {
     catch(error) {
         display.value = "Erro";
     }
-}
+}  
 
 function percent() {
     if (display.value != "0") {
